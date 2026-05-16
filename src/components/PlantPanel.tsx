@@ -197,7 +197,7 @@ function PlantPhoto({ plant }: { plant: { id: string; commonName: string; imageU
   const [imgError, setImgError] = useState(false);
 
   // Try explicit imageUrl first, then /plants/<id>.jpg, fall back to SVG placeholder on load error.
-  const src = plant.imageUrl || `/plants/${plant.id}.jpg`;
+  const src = plant.imageUrl || `${import.meta.env.BASE_URL}plants/${plant.id}.jpg`;
 
   if (imgError) {
     return (
