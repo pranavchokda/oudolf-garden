@@ -1,0 +1,161 @@
+{
+  "id": "bed-01",
+  "name": "A Beds — Block Plan",
+  "description": "The A Beds showcase Piet Oudolf's 'block' planting style: each species planted in a distinct rectangular mass, creating bold drifts of color that read clearly from a distance. 28,126 plants across 66 varieties arranged in geometric blocks, with grasses providing structure between seasonal waves of bloom.",
+  "viewBox": "0 0 1000 680",
+  "boundary": [
+    [0, 0], [1000, 0], [1000, 680], [0, 680]
+  ],
+  "paths": [
+    {
+      "id": "main-walkway",
+      "label": "Central Crushed Granite Path",
+      "polygon": [
+        [0, 320], [1000, 320], [1000, 360], [0, 360]
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "n01",
+      "plantId": "purple-coneflower",
+      "polygon": [
+        [0, 0], [200, 0], [200, 320], [0, 320]
+      ],
+      "label": "Purple Coneflower Block",
+      "notes": "Echinacea purpurea 'Fatal Attraction' — compact, dark-stemmed cultivar. Block planting creates bold mass of rosy-purple from July through September. Leave seed heads standing for goldfinches."
+    },
+    {
+      "id": "n02",
+      "plantId": "prairie-blazing-star",
+      "polygon": [
+        [200, 0], [400, 0], [400, 320], [200, 320]
+      ],
+      "label": "Prairie Blazing Star Block",
+      "notes": "Liatris pycnostachya — tall magenta spikes bloom top-to-bottom in July–August. Monarch butterflies are frequent visitors during fall migration. A strong vertical accent."
+    },
+    {
+      "id": "n03",
+      "plantId": "arkansas-blue-star",
+      "polygon": [
+        [400, 0], [600, 0], [600, 320], [400, 320]
+      ],
+      "label": "Arkansas Blue Star Block",
+      "notes": "Amsonia hubrichtii — pale blue flowers in spring, then extraordinary golden-orange fall foliage. Appears in all three bed styles (A, B, C). Perennial Plant of the Year 2011."
+    },
+    {
+      "id": "n04",
+      "plantId": "rattlesnake-master",
+      "polygon": [
+        [600, 0], [800, 0], [800, 320], [600, 320]
+      ],
+      "label": "Rattlesnake Master Block",
+      "notes": "Eryngium yuccifolium — spherical silver-white flower heads on rigid blue-green stems. Looks like a yucca but is in the carrot family. A structural prairie native beloved by native bees."
+    },
+    {
+      "id": "n05",
+      "plantId": "big-bluestem",
+      "polygon": [
+        [800, 0], [1000, 0], [1000, 320], [800, 320]
+      ],
+      "label": "Big Bluestem Block",
+      "notes": "Andropogon gerardii 'Dancing Wind' — the iconic tallgrass prairie grass. Turns copper-red to maroon in fall and holds structure through winter. Three-pronged 'turkey foot' seed head is diagnostic."
+    },
+    {
+      "id": "s01",
+      "plantId": "betony",
+      "polygon": [
+        [0, 360], [200, 360], [200, 680], [0, 680]
+      ],
+      "label": "Betony Block",
+      "notes": "Stachys monieri 'Hummelo' — named after Oudolf's own garden in the Netherlands. Dense violet spikes bloom for 6–8 weeks from June. A cornerstone of the Oudolf planting palette."
+    },
+    {
+      "id": "s02",
+      "plantId": "helenium",
+      "polygon": [
+        [200, 360], [400, 360], [400, 680], [200, 680]
+      ],
+      "label": "Sneezeweed Block",
+      "notes": "Helenium 'Sahin's Early Flowerer' — reflexed golden-to-russet daisy flowers from July through September. One of the earliest heleniums to bloom. Does not cause sneezing — the name comes from historical use of dried leaves as snuff."
+    },
+    {
+      "id": "s03",
+      "plantId": "butterfly-weed",
+      "polygon": [
+        [400, 360], [600, 360], [600, 680], [400, 680]
+      ],
+      "label": "Butterfly Weed Block",
+      "notes": "Asclepias tuberosa — brilliant orange milkweed. Monarch butterflies require milkweed to reproduce; caterpillars can only eat milkweed leaves. Look for monarch caterpillars in summer."
+    },
+    {
+      "id": "s04",
+      "plantId": "ironweed",
+      "polygon": [
+        [600, 360], [800, 360], [800, 680], [600, 680]
+      ],
+      "label": "Ironweed Block",
+      "notes": "Vernonia 'Summer's Surrender' — intense violet-purple flat-topped clusters, among the most vivid colors in the late-summer palette. Wiry, rigid stems that resist wind and rain."
+    },
+    {
+      "id": "s05",
+      "plantId": "aromatic-aster",
+      "polygon": [
+        [800, 360], [1000, 360], [1000, 680], [800, 680]
+      ],
+      "label": "Aromatic Aster Block",
+      "notes": "Symphyotrichum oblongifolium 'October Skies' — one of the last plants to bloom. Covers itself with sky-blue daisies in October when little else blooms. Foliage is fragrant when crushed."
+    },
+    {
+      "id": "accent-beebalm",
+      "plantId": "eastern-beebalm",
+      "circle": { "cx": 100, "cy": 160, "r": 68 },
+      "label": "Eastern Beebalm Pocket",
+      "notes": "Monarda bradburiana — the earliest-blooming native monarda, with pale lavender spotted flowers in May–June. Found in all three bed styles. Highly mildew-resistant. Square stems confirm mint family membership."
+    },
+    {
+      "id": "accent-lobelia",
+      "plantId": "great-blue-lobelia",
+      "ellipse": { "cx": 500, "cy": 170, "rx": 90, "ry": 40, "rotation": -8 },
+      "label": "Great Blue Lobelia Drift",
+      "notes": "Lobelia siphilitica — brilliant blue spikes in late summer. Also found in the Rain Garden alongside cardinal flower. Planted here as an accent in the Arkansas Blue Star block — the blue-on-blue combination is striking."
+    },
+    {
+      "id": "accent-mint",
+      "plantId": "mountain-mint",
+      "circle": { "cx": 300, "cy": 510, "r": 62 },
+      "label": "Mountain Mint Pocket",
+      "notes": "Pycnanthemum muticum — silver bracts glow like frosted buttons. On warm summer days this small pocket buzzes with 30+ native bee species simultaneously — a remarkable concentration of pollinators."
+    },
+    {
+      "id": "accent-dropseed",
+      "plantId": "prairie-dropseed",
+      "circle": { "cx": 900, "cy": 180, "r": 58 },
+      "label": "Prairie Dropseed Accent",
+      "notes": "Sporobolus heterolepis — fine-textured fountain mounds with buttered-popcorn fragrance from the seed heads in August. The matrix grass of the B Beds makes a graceful accent here among the block plantings."
+    },
+    {
+      "id": "accent-bluestem",
+      "plantId": "little-bluestem",
+      "ellipse": { "cx": 700, "cy": 540, "r": 0, "rx": 95, "ry": 48, "rotation": 5 },
+      "label": "Little Bluestem Drift",
+      "notes": "Schizachyrium scoparium 'Ha Ha Tonka' — copper-orange fall color, fluffy silver seed heads. Appears throughout all three bed styles. The blue summer foliage and fall warmth are essential components of the seasonal progression."
+    }
+  ],
+  "features": [
+    {
+      "id": "f01",
+      "type": "butterfly_waystation",
+      "position": [500, 530],
+      "label": "Monarch Butterfly Host Plants",
+      "description": "Butterfly Weed (Asclepias tuberosa) in this block is a critical monarch butterfly host plant — caterpillars can only eat milkweed foliage. Watch for monarch eggs (tiny white ovals on leaf undersides) and caterpillars (yellow, black, and white striped) from late June through August."
+    },
+    {
+      "id": "f02",
+      "type": "bee_hive",
+      "position": [910, 430],
+      "label": "Native Bee Habitat",
+      "description": "The A Beds support over 40 native bee species documented during volunteer surveys. Bumblebee queens overwinter in the ground and emerge in early spring to visit betony and beebalm. Look for metallic green sweat bees on coneflower and mountain mint."
+    }
+  ]
+}

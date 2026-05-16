@@ -1,0 +1,122 @@
+{
+  "id": "bed-03",
+  "name": "C Beds — Organic Grouping Plan",
+  "description": "The C Beds use Piet Oudolf's 'organic grouping' style: flowing, irregular drifts of plants that interlock like puzzle pieces, with no hard edges. Species are grouped by compatible height, texture, and seasonal bloom time rather than arranged in strict blocks. The result is a more naturalistic, spontaneous-feeling composition.",
+  "viewBox": "0 0 1000 680",
+  "boundary": [
+    [0, 0], [1000, 0], [1000, 680], [0, 680]
+  ],
+  "paths": [
+    {
+      "id": "main-walkway",
+      "label": "Central Crushed Granite Path",
+      "polygon": [
+        [0, 310], [1000, 310], [1000, 355], [0, 355]
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "cn01",
+      "plantId": "cranesbill",
+      "polygon": [
+        [0, 0], [300, 0], [280, 150], [200, 310], [0, 310]
+      ],
+      "label": "Cranesbill Drift",
+      "notes": "Geranium 'Rozanne' — blooms nearly non-stop from May through frost, weaving between adjacent plants. Violet-blue flowers with white centers. Sprawling habit softens the edges of adjacent taller plants. Deeply cut leaves turn red in fall."
+    },
+    {
+      "id": "cn02",
+      "plantId": "siberian-iris",
+      "polygon": [
+        [300, 0], [560, 0], [560, 130], [420, 310], [200, 310], [280, 150]
+      ],
+      "label": "Siberian Iris Drift",
+      "notes": "Iris sibirica 'Caesar's Brother' — deep violet-blue flowers in May–June, then upright grass-like foliage all season. The vertical, narrow form provides structural contrast to the mounding cranesbill and sweeping amsonia."
+    },
+    {
+      "id": "cn03",
+      "plantId": "arkansas-blue-star",
+      "polygon": [
+        [560, 0], [810, 0], [820, 115], [700, 310], [420, 310], [560, 130]
+      ],
+      "label": "Arkansas Blue Star Drift",
+      "notes": "Amsonia hubrichtii — spring blue flowers, then the best fall foliage color of any perennial. The soft, feathery mounds create flowing, billowing drifts in the organic grouping style. The golden fall color is particularly effective in October sunlight."
+    },
+    {
+      "id": "cn04",
+      "plantId": "wild-indigo",
+      "polygon": [
+        [810, 0], [1000, 0], [1000, 310], [700, 310], [820, 115]
+      ],
+      "label": "Wild Indigo Group",
+      "notes": "Baptisia x 'Midnight Prairie Blues' — shrub-like mound with navy-blue spring flowers. In the C Beds, the baptisia groups anchor the corners, providing bold mass and structural winter silhouette. Black rattling seed pods are ornamental in late summer."
+    },
+    {
+      "id": "cs01",
+      "plantId": "sweet-coneflower",
+      "polygon": [
+        [0, 355], [270, 355], [290, 500], [220, 680], [0, 680]
+      ],
+      "label": "Sweet Coneflower Drift",
+      "notes": "Rudbeckia subtomentosa 'Little Henry' — golden-yellow daisy flowers from August through October. The soft woolly foliage has an anise fragrance when crushed. Later and more refined than common Rudbeckia; a late-season burst of gold."
+    },
+    {
+      "id": "cs02",
+      "plantId": "mountain-fleece",
+      "polygon": [
+        [270, 355], [530, 355], [550, 460], [470, 680], [220, 680], [290, 500]
+      ],
+      "label": "Mountain Fleece Drift",
+      "notes": "Persicaria amplexicaulis 'Firetail' — crimson-red bottlebrush spikes from July until frost. In the organic grouping style, the fleece weaves between the rudbeckia and beebalm, its red complementing the gold and lavender of its neighbors. One of the longest-blooming plants in the entire garden."
+    },
+    {
+      "id": "cs03",
+      "plantId": "eastern-beebalm",
+      "polygon": [
+        [530, 355], [760, 355], [780, 455], [700, 680], [470, 680], [550, 460]
+      ],
+      "label": "Eastern Beebalm Drift",
+      "notes": "Monarda bradburiana — pale lavender flowers with spotted lips in May–June. The spring-blooming beebalm fills the south beds with fragrant pale color when the sweet coneflower is just emerging. The aromatic foliage remains pleasant all season."
+    },
+    {
+      "id": "cs04",
+      "plantId": "aromatic-aster",
+      "polygon": [
+        [760, 355], [1000, 355], [1000, 680], [700, 680], [780, 455]
+      ],
+      "label": "Aromatic Aster Drift",
+      "notes": "Symphyotrichum oblongifolium 'October Skies' — the finale of the C Beds season. Masses of lavender-blue daisies in October when neighboring plants are fading. Crush the foliage for a pleasant herbal fragrance. Critical for late migrating monarchs and last-flying bumblebees."
+    },
+    {
+      "id": "accent-helenium",
+      "plantId": "helenium",
+      "circle": { "cx": 105, "cy": 520, "r": 82 },
+      "label": "Sneezeweed Accent",
+      "notes": "Helenium 'Sahin's Early Flowerer' — golden to russet-red reflexed daisy flowers from July. In the organic grouping approach, accent circles like this one are placed where structural focal points are needed. The warm gold contrasts with the cooler lavender of surrounding beebalm."
+    },
+    {
+      "id": "accent-bluestem",
+      "plantId": "little-bluestem",
+      "ellipse": { "cx": 500, "cy": 170, "rx": 120, "ry": 55 },
+      "label": "Little Bluestem Accent",
+      "notes": "Schizachyrium scoparium 'Ha Ha Tonka' — placed at the transition between the siberian iris and arkansas blue star drifts, the little bluestem accent provides textural contrast and copper-orange fall color. A signature grass across all three bed styles."
+    }
+  ],
+  "features": [
+    {
+      "id": "f01",
+      "type": "bird_nest",
+      "position": [900, 190],
+      "label": "American Goldfinch Activity",
+      "description": "American goldfinches visit the Wild Indigo seed heads in late summer, using the soft plant fibers to line their nests. The species typically nests later than most birds (July–August) to time with thistle and composite seed availability. Watch for the males' brilliant yellow plumage among the blue-green indigo foliage."
+    },
+    {
+      "id": "f02",
+      "type": "butterfly_waystation",
+      "position": [350, 430],
+      "label": "Monarch Nectar Corridor",
+      "description": "Mountain Fleece (Persicaria amplexicaulis 'Firetail'), Aromatic Aster, and Sweet Coneflower in the south C Beds provide critical late-season nectar for monarch butterflies migrating south through Belle Isle each September and October. Monarchs require large nectar deposits before crossing Lake Erie."
+    }
+  ]
+}

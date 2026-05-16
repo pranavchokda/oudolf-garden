@@ -1,0 +1,103 @@
+{
+  "id": "bed-02",
+  "name": "B Beds — Matrix Plan",
+  "description": "The B Beds demonstrate Piet Oudolf's 'matrix' planting style: a single grass species (Prairie Dropseed) forms a continuous background matrix, while flowering forbs are distributed as clusters within it. This mimics how plants grow naturally in wild meadows — grasses unifying the composition as forbs rise and fall through the seasons.",
+  "viewBox": "0 0 1000 680",
+  "boundary": [
+    [0, 0], [1000, 0], [1000, 680], [0, 680]
+  ],
+  "paths": [
+    {
+      "id": "main-walkway",
+      "label": "Central Crushed Granite Path",
+      "polygon": [
+        [0, 320], [1000, 320], [1000, 360], [0, 360]
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "north-matrix",
+      "plantId": "prairie-dropseed",
+      "polygon": [
+        [0, 0], [1000, 0], [1000, 320], [0, 320]
+      ],
+      "label": "Prairie Dropseed Matrix (North)",
+      "notes": "Sporobolus heterolepis — the matrix grass that unifies the B Beds. Fine-textured arching mounds fill the entire bed as a continuous background. Seed heads smell of buttered popcorn in August. Forb clusters rise from within this matrix."
+    },
+    {
+      "id": "south-matrix",
+      "plantId": "prairie-dropseed",
+      "polygon": [
+        [0, 360], [1000, 360], [1000, 680], [0, 680]
+      ],
+      "label": "Prairie Dropseed Matrix (South)",
+      "notes": "The same Sporobolus heterolepis matrix continues south of the walkway. The matrix concept: one grass species creates visual unity while forb clusters within it provide seasonal bloom succession from spring through frost."
+    },
+    {
+      "id": "pocket-indigo",
+      "plantId": "wild-indigo",
+      "ellipse": { "cx": 180, "cy": 130, "rx": 130, "ry": 75 },
+      "label": "Wild Indigo Cluster",
+      "notes": "Baptisia x 'Midnight Prairie Blues' — deep navy-blue pea flowers in spring, then a handsome shrub-like form all season. The inflated seed pods turn jet black and rattle in late summer. Very long-lived; this planting will still be here in decades."
+    },
+    {
+      "id": "pocket-sage",
+      "plantId": "meadow-sage",
+      "ellipse": { "cx": 550, "cy": 95, "rx": 110, "ry": 55 },
+      "label": "May Night Sage Cluster",
+      "notes": "Salvia nemorosa 'Mainacht' — deep indigo-violet spikes nearly black at bud stage. Rebounds if cut back after first flush. Aromatic foliage with a pleasant sage scent. A foundational plant in Oudolf's design vocabulary."
+    },
+    {
+      "id": "pocket-fleece",
+      "plantId": "mountain-fleece",
+      "ellipse": { "cx": 850, "cy": 195, "rx": 88, "ry": 118 },
+      "label": "Mountain Fleece Cluster",
+      "notes": "Persicaria amplexicaulis 'Firetail' — crimson-red bottlebrush spikes from July until frost. Among the longest bloom seasons of any garden perennial. The clasping leaves are distinctive: they wrap around the stem at their base."
+    },
+    {
+      "id": "pocket-iris",
+      "plantId": "siberian-iris",
+      "ellipse": { "cx": 390, "cy": 255, "rx": 90, "ry": 50 },
+      "label": "Siberian Iris Cluster",
+      "notes": "Iris sibirica 'Caesar's Brother' — deep violet-blue flowers in May–June, then elegant grass-like foliage all season. Distinctive rectangular seed capsules split open in fall. Unlike bearded iris, stays tidy and disease-free all summer."
+    },
+    {
+      "id": "pocket-beebalm",
+      "plantId": "eastern-beebalm",
+      "circle": { "cx": 175, "cy": 490, "r": 88 },
+      "label": "Eastern Beebalm Cluster",
+      "notes": "Monarda bradburiana — earliest monarda, blooming May–June with pale lavender spotted flowers. Appears in all three bed styles. Strongly aromatic foliage. Much more mildew-resistant than the common red beebalm (M. didyma)."
+    },
+    {
+      "id": "pocket-mint",
+      "plantId": "mountain-mint",
+      "ellipse": { "cx": 515, "cy": 555, "rx": 120, "ry": 68 },
+      "label": "Mountain Mint Cluster",
+      "notes": "Pycnanthemum muticum — silver-white bracts glow like frosted buttons from midsummer through fall. On warm days this planting hosts more simultaneous bee species than almost any other plant in the garden. Strong mint fragrance when touched."
+    },
+    {
+      "id": "pocket-bluestem",
+      "plantId": "little-bluestem",
+      "ellipse": { "cx": 830, "cy": 475, "rx": 100, "ry": 125 },
+      "label": "Little Bluestem Cluster",
+      "notes": "Schizachyrium scoparium 'Ha Ha Tonka' — appears as a cluster within the matrix grass, adding textural contrast. Blue-green in summer, copper in fall. The layering of two grasses at different scales is a hallmark of the matrix approach."
+    }
+  ],
+  "features": [
+    {
+      "id": "f01",
+      "type": "sign",
+      "position": [500, 340],
+      "label": "Matrix Planting — How It Works",
+      "description": "In a matrix planting, one grass species (here, Prairie Dropseed) forms a continuous background that carpets the entire bed. Flowering forbs are distributed as clusters within this matrix, creating a naturalistic mosaic that mimics how plants grow in wild meadows. The grass visually unifies the composition as forbs come and go through the seasons."
+    },
+    {
+      "id": "f02",
+      "type": "bee_hive",
+      "position": [850, 610],
+      "label": "Pollinator Activity Zone",
+      "description": "Mountain mint (Pycnanthemum muticum) in this bed is documented to host over 50 native bee species simultaneously during peak bloom in July–August. Volunteers have counted more than 30 individual bees on a single plant at once. Look for metallic green sweat bees, bumblebees, and mason bees on the silvery flower clusters."
+    }
+  ]
+}

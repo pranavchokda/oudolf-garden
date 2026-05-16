@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-cream text-gray-900;
+  }
+}
+
+@layer utilities {
+  .bg-cream {
+    background-color: #F5F0E8;
+  }
+  .bg-forest {
+    background-color: #2D4A1E;
+  }
+  .text-forest {
+    color: #2D4A1E;
+  }
+  .hover\:text-forest:hover {
+    color: #2D4A1E;
+  }
+  .hover\:bg-sage:hover {
+    background-color: #6B7C4A;
+  }
+  .border-sage {
+    border-color: #6B7C4A;
+  }
+}

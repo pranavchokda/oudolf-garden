@@ -1,0 +1,81 @@
+{
+  "id": "bed-04",
+  "name": "Rain Garden",
+  "description": "Detroit's first Piet Oudolf design — a 3,803 sq ft (0.25-acre) stormwater management garden that collects and filters runoff from Belle Isle Drive through an innovative inlet and trench drain system. Instead of entering the sewer, stormwater percolates through deep-rooted wetland plants. Created with the Erb Family Foundation and Roy Diblik.",
+  "viewBox": "0 0 800 500",
+  "boundary": [
+    [0, 90], [80, 0], [400, 0], [600, 45], [800, 75],
+    [800, 415], [600, 490], [300, 475], [0, 390]
+  ],
+  "paths": [
+    {
+      "id": "inlet-channel",
+      "label": "Stormwater Inlet Trench",
+      "polygon": [
+        [310, 0], [430, 0], [440, 110], [320, 118]
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "rg-cardinal",
+      "plantId": "cardinal-flower",
+      "polygon": [
+        [0, 90], [200, 45], [310, 0], [320, 118], [280, 290], [160, 350], [0, 280]
+      ],
+      "label": "Cardinal Flower Zone",
+      "notes": "Lobelia cardinalis — the most intensely red native wildflower in North America. This westernmost section stays moist from stormwater infiltration, ideal for cardinal flower. Hummingbirds visit regularly from July through September. A captivating sight at close range."
+    },
+    {
+      "id": "rg-columbine",
+      "plantId": "wild-columbine",
+      "polygon": [
+        [310, 0], [600, 45], [600, 185], [440, 110]
+      ],
+      "label": "Wild Columbine Zone",
+      "notes": "Aquilegia canadensis — delicate red-and-yellow nodding flowers in April–May. The shallowest, best-drained area of the rain garden suits columbine perfectly. Goes dormant by summer, hidden under taller emerging plants. Self-seeds freely — look for seedlings throughout."
+    },
+    {
+      "id": "rg-iris",
+      "plantId": "copper-iris",
+      "polygon": [
+        [600, 45], [800, 75], [800, 290], [640, 310], [600, 185]
+      ],
+      "label": "Copper Iris Zone",
+      "notes": "Iris fulva — brick-red to copper-orange flowers in May–June; a color unlike any other iris. The eastern section has the most consistent moisture, suiting this wetland iris. Spreads by rhizomes into dense colonies along the water's edge."
+    },
+    {
+      "id": "rg-lobelia",
+      "plantId": "great-blue-lobelia",
+      "polygon": [
+        [160, 350], [280, 290], [640, 310], [800, 290], [800, 415],
+        [600, 490], [300, 475], [0, 390], [0, 280]
+      ],
+      "label": "Great Blue Lobelia Zone",
+      "notes": "Lobelia siphilitica — brilliant blue spikes in August–October. The deepest part of the rain garden retains moisture longest — perfect for great blue lobelia. Planted adjacent to cardinal flower to create a blue-and-red combination that is spectacular in late summer."
+    }
+  ],
+  "features": [
+    {
+      "id": "f01",
+      "type": "water_feature",
+      "position": [375, 60],
+      "label": "Stormwater Inlet",
+      "description": "Stormwater from Belle Isle Drive enters through this inlet and disperses through a trench drain into the garden. The rain garden retains 1,677 cubic feet (12,544 gallons) at capacity — preventing that volume from entering the combined sewer system and protecting nearby Lake Tacoma from nutrient runoff. The deep-rooted plants filter pollutants naturally."
+    },
+    {
+      "id": "f02",
+      "type": "bird_nest",
+      "position": [120, 210],
+      "label": "Hummingbird Nectar Corridor",
+      "description": "Ruby-throated hummingbirds visit the Cardinal Flower (Lobelia cardinalis) here from July through September. The flowers' red color and tubular shape are precisely evolved for hummingbird pollination — bees cannot see red as a distinct color. Watch from the path; hummingbirds are bold and will hover very close."
+    },
+    {
+      "id": "f03",
+      "type": "bee_hive",
+      "position": [660, 195],
+      "label": "Native Wetland Pollinators",
+      "description": "The Rain Garden supports specialist wetland bee species not found elsewhere in the garden, including Hibiscus Sweat Bees (Dieunomia) and Yellow-Banded Bumblebees (Bombus terricola), a species of conservation concern. Great Blue Lobelia's flower tube is specifically sized for bumblebee tongues."
+    }
+  ]
+}
